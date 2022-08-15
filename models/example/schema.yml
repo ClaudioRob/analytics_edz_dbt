@@ -19,3 +19,24 @@ models:
         tests:
           - unique
           - not_null
+  - name: tb_10_compradores
+    description: "Retorna os TOP 10 compradores"
+    columns:
+      - name: vendas_totais
+        description: "Vendas totais por compradores"
+        tests:
+          - nao_negativo
+          - not_null
+  - name: vw_sales
+    description: "Views com informações de vendas"
+    columns:
+      - name: valor_pago
+        description: "Valor pago na compra"
+        tests:
+          - nao_negativo
+          - not_null
+      - name: comissao
+        description: "Comissão de vendas"
+        tests:
+          - nao_negativo
+          - not_null 
