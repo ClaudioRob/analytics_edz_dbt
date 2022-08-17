@@ -1,4 +1,4 @@
-Welcome to my new dbt project!
+## Welcome to my new dbt project!
 
 This project is part of the Stack Academy Zero Data Engineering course. Our goal is to create a simple process of transforming and ingesting data using the DBT framework. We will perform some testing and load execution for the Amazon Redshift cluster. We will use a Docker image with the necessary infrastructure and Visual Studio Code to upload the code to the Git Hub repository.
 
